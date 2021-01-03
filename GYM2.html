@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kolkata Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('Images/bg4.jpg') no-repeat center center/cover;
+    }
+
+    .left {
+        display: inline-block;
+         border: 5px solid red; 
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        margin: 29px auto;
+         border: 2px solid green; 
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+         border: 2px solid yellow; 
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 12px 10px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="Images/logo1.jpg" alt="">
+            <div>Kolkata Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Kolkata now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <script>
+        var a=49;
+        var b="Gulu";
+        var num1=18;
+        var num2=1223;
+        console.log("The sum of num1 and num2="+ (num1+num2));
+        console.log("The subtraction of num1 and num2="+ (num1-num2));
+        console.log("The multiplication of num1 and num2="+ (num1*num2));
+        console.log("The division of num1 and num2="+ (num1/num2));
+        var string='We have many people in our GYM and Fitness center named "KOLKATA FITNESS"';
+        var name='Samridhi';
+        var academy='KOLKATA FITNESS';
+        var message='Join soon to build up yor body!!';
+        console.log(name+academy+message+string);
+        console.log(string);
+        var str = "Build your body and build your muscular system soon here";
+    console.log(str);
+    var position = str.indexOf('your');
+    console.log(position);
+    position = str.lastIndexOf('build');
+    console.log(position)
+    var substr = str.slice(1,12);
+    console.log(substr);
+    var substr = str.substring(1,13);
+    console.log(substr);
+    var replaced = str.replace('here', 'there');
+    console.log(str);
+    console.log(replaced);
+    console.log(str.toUpperCase()); 
+    console.log(str.toLowerCase());
+    var strWithWhitespaces = "               Come                       here                           to                   build              your                   body                   and                                  belly  ";
+    console.log(strWithWhitespaces);
+    console.log(strWithWhitespaces.trim());
+    var char2 = str.charAt(9);
+    console.log(char2)
+    console.log(str[3])
+    var newString = str.concat('New String');
+    console.log(newString);
+    var string1 = "Build your body here";
+    console.log(string1);
+    string1="Build your muscles there";
+    console.log(string1);
+    let age = 56;
+    if(age>90){
+         console.log("Be strong and healthy");
+     }
+    else if(age==56){
+        console.log("Be fit and build you musceles")
+    }
+    else if(age==89){
+         console.log("Your age is 89")
+     }
+    else{
+    console.log("You can go to Kolkata fitness");
+    }
+    const cups = 33; 
+    switch (cups) {
+        case 3:
+            console.log("The value of cup is 3")
+            //break;
+
+        case 31:
+            console.log("The value of cup is 31")
+            //break;
+
+        case 32:
+            console.log("The value of cup is 32")
+            //break;
+
+        case 33:
+            console.log("The value of cup is 43")
+            //break;
+    
+        default:
+            console.log("The value of cups is none of 3, 31, 32, 33")
+            //break;
+    }
+    </script>
+</body>
+</html>
